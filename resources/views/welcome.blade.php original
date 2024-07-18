@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sija Toddopuli</title>
+    @vite('resources/css/app.css')
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Freehand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header class="header custom-height items-center justify-center px-4 bg-emerald-900 text-white sticky flex" id="head">
+        <div class="flex items-center mt-3">
+            <ul class="flex list-none">
+                <button class="mx-20">
+                    <span class="text-lg font-medium md:text-base">Shop</span>
+                </button>
+
+                <button class="mx-20">
+                    <span class="text-lg font-medium md:text-base">Menu</span>
+                </button>
+            </ul>
+
+            <div class="h-8 w-8 mx-10">
+                <div class="bg-logo"></div>
+            </div>
+            <ul class="flex list-none">
+
+                <button class="mx-20">
+                    <span class="text-lg font-medium md:text-base">About</span>
+                </button>
+
+                <button class="mx-20">
+                    <span class="text-lg font-medium md:text-base">Contact</span>
+                </button>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="bagian-1 relative inset-0 left-0 z-40">
+        <div class="dark-image relative -mt-20">
+            <div class="dark-overlay"></div>
+            <div class="h-layar justify-center flex-col flex text-center items-center">
+                <h2 class="text-5xl font-medium text-white lg:text-6xl tracking-widest">Membuatmu
+                    Santai<br><br>&<br><br>Nyaman</h2>
+                <button class="wid-button bg-ambe rounded-full mt-12 font-medium border-2 border-amber text-amber hover:border-0 hover:bg-amber hover:text-black">Lokasi</button>
+            </div>
+
+            <a id="scroll" class="bg-emerald-800 w-swipe h-20 absolute -mt-24 lg:-mt-20 no-underline" style="z-index: 2" href="#menu">
+                <div class="flex justify-center mt-2">
+                    <span class="material-symbols-outlined md-70">
+                        expand_circle_down
+                        </span>
+                </div>
+                <h5 class="text-center text-lg no">Scroll ke bawah untuk lebih Detail</h5>
+
+            </a>
+        </div>
+    </div>
+
+    <div class="bagian-3 bagian-3-margin sm:w-layar" id="menu">
+        <div class="height-3 h-layar bg-emerald-900">
+            <div class="bagian-menu flex space-x-12 justify-center">
+                <div
+                    class="menu mt-24 rounded-2xl bg-emerald-800 shadow-2xl grid justify-center items-center hover:shadow-amber">
+                    <div class="foto"></div>
+                    <h5 class="text-3xl text-white text-center md:text-2xl">Black Coffee</h5>
+                </div>
+
+                <div
+                    class="menu mt-24 rounded-2xl bg-emerald-800 shadow-2xl grid justify-center items-center hover:shadow-amber">
+                    <div class="foto"></div>
+                    <h5 class="text-3xl text-white text-center md:text-2xl">Black Coffee</h5>
+                </div>
+
+                <div
+                    class="menu mt-24 rounded-2xl bg-emerald-800 shadow-2xl grid justify-center items-center hover:shadow-amber">
+                    <div class="foto"></div>
+                    <h5 class="text-3xl text-white text-center md:text-2xl">Black Coffee</h5>
+                </div>
+
+                <div
+                    class="menu mt-24 rounded-2xl bg-emerald-800 shadow-2xl grid justify-center items-center hover:shadow-amber">
+                    <div class="foto"></div>
+                    <h5 class="text-3xl text-white text-center md:text-2xl">Black Coffee</h5>
+                </div>
+            </div>
+
+            <div class="text-menu justify-center flex">
+                <h2 class="text-3xl mt-24 text-white font-bold md:mt-14">Temui Kenikmatan Sejati dalam Setiap Tetes Kopi
+                    dan Gigitan Makanan Lezat </h2>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bagian-2 bagian-2-margin relative sm:w-layar">
+        <div class="height-2 bg-emerald-800 relative flex justify-center">
+            <h5 class="mt-16 absolute text-white text-4xl font-bold">Cara kami membuat</h5>
+            <h5 class="mt-24 absolute text-white text-3xl tracking-widest md:mt-28">Kopi Andalan</h5>
+
+            <div class="text-center flex items-center mt-52">
+
+                <div class="text-white text-center pisah-1 w-56 mx-10">
+                    <h5 class="mar2-text mt- text-xl">Bahan Berkualitas</h5>
+                    <p class="mar2-text text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, beatae.
+                    </p>
+                </div>
+
+
+                <div class="text-white text-center pisah-2 w-56 mx-10">
+                    <h5 class="mar3-text mt- text-xl">Bahan Berkualitas</h5>
+                    <p class="mar3-text text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, beataee.
+                    </p>
+                </div>
+
+                <div class="text-white text-center pisah-1 w-56 mx-10">
+                    <h5 class="mar2-text text-xl">Bahan Berkualitas</h5>
+                    <p class="mar2-text text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, beatae.
+                    </p>
+                </div>
+
+                <div class="text-white text-center pisah-2 w-56 mx-10">
+                    <h5 class="mar3-text text-xl">Bahan Berkualitas</h5>
+                    <p class="mar3-text text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, beatae.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/warkop2.JPG" class="img-fluid img-1" alt="Warkop Image">
+                </div>
+                <div class="col-md-6">
+                    <div class="text">
+                        <h5>Langsung Aja Ke</h5>
+                        <h1>Warkop Kami</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illo vel magni culpa, in eveniet, repellendus suscipit sed nostrum quasi ipsa accusantium ut, quis eaque repellat odio fuga nam illum. Officia doloremque laborum consequatur magnam laudantium amet, hic non quis? Aut, voluptatem. Molestias molestiae ex nemo culpa consequatur, rem aperiam voluptates ipsa alias vitae quisquam iure reiciendis libero adipisci illum ipsam consectetur hic nisi sed tenetur corporis? Earum, itaque. Nisi, eligendi. Quod eveniet hic, atque nihil, odit eum nesciunt aliquam vitae sint in odio pariatur sunt doloremque quibusdam quas aspernatur earum beatae sequi expedita adipisci temporibus molestias esse ab? Sint.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="container my-5">
+
+      <footer class="text-white text-center text-lg-start" style="background-color: #23242a;">
+        <div class="container p-4">
+          <div class="row mt-4">
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4">About company</h5>
+
+              <p>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                voluptatum deleniti atque corrupti.
+              </p>
+
+              <p>
+                Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                molestias.
+              </p>
+
+              <div class="mt-4">
+                <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-facebook-f"></i></a>
+                <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-dribbble"></i></a>
+                <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-google-plus-g"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+              <div class="form-outline form-white mb-4">
+                <input type="text" id="formControlLg" class="form-control form-control-lg">
+                <label class="form-label" for="formControlLg" style="margin-left: 0px;">Search</label>
+              <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 48.8px;"></div><div class="form-notch-trailing"></div></div></div>
+
+              <ul class="fa-ul" style="margin-left: 1.65em;">
+                <li class="mb-3">
+                  <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
+                </li>
+                <li class="mb-3">
+                  <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@example.com</span>
+                </li>
+                <li class="mb-3">
+                  <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
+                </li>
+                <li class="mb-3">
+                  <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 01 234 567 89</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+              <table class="table text-center text-white">
+                <tbody class="font-weight-normal">
+                  <tr>
+                    <td>Mon - Thu:</td>
+                    <td>8am - 9pm</td>
+                  </tr>
+                  <tr>
+                    <td>Fri - Sat:</td>
+                    <td>8am - 1am</td>
+                  </tr>
+                  <tr>
+                    <td>Sunday:</td>
+                    <td>9am - 10pm</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+
+      </footer>
+
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-TN6FfJ3hUDi52dCUZJPw2D0gqc4oiHduAY+XUcbvKnhokLjcgwL8Y8D9tBccE4+Y" crossorigin="anonymous"></script>
+
+</body>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Kulim Park', sans-serif;
+        padding: 0;
+    }
+
+    .header {
+        top: 0;
+        z-index: 999
+    }
+
+    .bagian-1 {
+        position: relative;
+    }
+
+    .h-layar {
+        position: relative;
+        height: 100vh;
+        z-index: 1;
+    }
+
+    .custom-height {
+        height: 100px;
+    }
+
+    .wid-button {
+        width: 100px;
+        height: 50px
+    }
+
+    .height-2 {
+        height: 850px
+    }
+
+    .bagian-2-margin {
+        margin-top: rem
+    }
+
+    .bagian-3-margin {
+        margin-top: rem
+    }
+
+    .mar2-text {
+        margin-left: rem
+    }
+
+    .mar3-text {
+        margin-left: rem
+    }
+
+    .pisah-2 {
+        margin-left: rem
+    }
+
+    .pisah-1 {
+        margin-left: rem
+    }
+
+    .dark-image {
+        background-image: url(https://i.imgur.com/B8OhS6F.jpeg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .dark-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .bagian-3 {
+        height: 100vh
+    }
+
+    .menu {
+        width: 40vh;
+        height: 60vh;
+    }
+
+    .bg-logo {
+        background-image: url(https://i.imgur.com/qWIqEKY.png);
+    }
+
+    .foto {
+        background-image: url(https://i.imgur.com/liE4noD.png);
+        height: 20vh;
+        width: 20vh;
+        background-color: black
+    }
+
+    .w-layar {
+        width: 100%
+    }
+
+    .w-swipe {
+        width: 100%
+    }
+
+    body::-webkit-scrollbar {
+        width: px;
+    }
+
+        .img-1 {
+            width: 80%;
+            height: auto;
+            max-width: 100%;
+            margin-top: 250px;
+            margin-left: 40px;
+            border: 15px solid white;
+            transform: rotate(-3.26deg);
+        }
+
+        .text {
+            margin-top: 150px;
+            margin-left: 25px;
+            margin-right: 75px;
+            text-align: justify;
+        }
+
+        h5 {
+            font-family: 'Kulim Park', sans-serif;
+            font-size: 28px;
+            color: #BCA461;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 35px;
+            font-weight: 500;
+            letter-spacing: 6px;
+            margin-bottom: 50px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 2px;
+        }
+
+        footer {
+            width: 100%;
+        }
+
+        .h-layar2 {
+            height:
+        }
+
+    .material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 20
+    }
+
+    .material-symbols-outlined.md-70 {
+        font-size: 40px;
+        color: #BCA461
+    }
+
+
+    @media (min-width: 768px) {
+        .custom-height {
+            height: 80px;
+        }
+
+        .mar2-text {
+            margin-left: rem
+        }
+
+        .mar3-text {
+            margin-left: rem
+        }
+
+        .menu {
+            width: 34vh;
+            height: 54vh;
+        }
+
+        .height-2 {
+        height: 90vh
+        }
+    }
+</style>
+
+<script>
+  window.addEventListener('scroll', function() {
+    var header = document.querySelector('#head');
+    var menu = document.querySelector('#menu');
+    var scrollPosition = window.scrollY;
+
+    // Calculate the position of the menu div relative to the viewport
+    var menuPosition = menu.getBoundingClientRect().top;
+
+    // Adjust the offset if needed, for example, to trigger the change earlier or later
+    var offset = 0; // Adjust this value as needed
+
+    if (scrollPosition > menuPosition - offset) {
+      header.classList.add('bg-emerald-900'); // Change to your desired color class
+    } else {
+      header.classList.remove('bg-emerald-900');
+    }
+  });
+
+  document.getElementById('scroll').addEventListener('click', function() {
+    // Scroll to the target element (menu) smoothly
+    document.getElementById('menu').scrollIntoView({ behavior: 'smooth' });
+  });
+</script>
